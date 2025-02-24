@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --background-color: #0f172a; /* Deep navy blue */
+  --foreground-color: #ffffff; /* White */
+  --accent-color: #9b87f5; /* Soft purple */
+  --muted-color: #334155; /* Slate gray */
+  --border-color: #1e293b; /* Dark slate blue */
+  --secondary-color: #1e293b; /* Dark slate blue */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', serif;
+  box-sizing: border-box;
+}
