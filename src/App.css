@@ -20,3 +20,7 @@ body {
   background-color: var(--background-color);
   color: var(--foreground-color);
 }
+
+main {
+  margin-top: 10vh;
+}
