@@ -21,7 +21,7 @@ const Navbar = () => {
         <li>Skills</li>
         <li>Contact</li>
       </ul>
-      <h1>Ege Özakdemir</h1>
+      <h1 className={styles.name}>Ege Özakdemir</h1>
       <ul className={styles.rightNavLinks}>
         <li>
           <FiLinkedin size={20} />

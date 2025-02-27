@@ -1,17 +1,11 @@
-import React from 'react';
-import styles from './Hero.module.css';
-import { GoArrowRight } from 'react-icons/go';
+import React from "react";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
     <section className={styles.heroContainer}>
-      <h2>JAVASCRIPT DEVELOPER</h2>
-      <span>Crafting Digital Experiences with Code and Creativity</span>
-      <p>I build beautiful, responsive websites that bring ideas to life</p>
-      <button>
-        View My Work
-        <GoArrowRight size={24} />
-      </button>
+      <h1>ege özakdemir</h1>
+      <h2>javascript developer</h2>
     </section>
   );
 };
