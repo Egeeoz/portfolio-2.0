@@ -1,4 +1,5 @@
 nav {
+  width: 100%;
   top: 0;
   position: fixed;
   width: 100%;
@@ -6,14 +7,34 @@ nav {
   transition: all 0.3s;
   height: 10vh;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
-ul {
+h1 {
+  padding-top: 0.75rem;
+  font-size: 20px;
+  font-weight: 500;
   display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+
+.leftNavLinks {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rightNavLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  width: 25%;
   gap: 2rem;
   list-style: none;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 ul li {
@@ -22,10 +43,10 @@ ul li {
 
 ul li:hover {
   cursor: pointer;
-  color: var(--accent-color);
+  color: var(--foreground-hover);
 }
 
 .scrolled {
-  background-color: rgba(15, 23, 42, 0.8);
+  background-color: var(---background-overlay);
   backdrop-filter: blur(8px);
 }
