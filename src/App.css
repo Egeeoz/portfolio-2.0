@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
   /* Colors */
@@ -18,12 +18,13 @@
   /* Semi-transparent overlay for the fixed header when scrolled */
   --button-background: rgba(255, 255, 255, 0.1);
   /* Background color for buttons and interactive elements */
+  --strong-hover: #6cb4ee;
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   box-sizing: border-box;
 }
 

@@ -7,6 +7,8 @@
 }
 
 .projectItem {
+  text-decoration: none;
+  cursor: pointer;
   background: var(--background-hover);
   padding: 1.5rem;
   border-radius: 10px;
@@ -65,6 +67,22 @@
   padding: 0.3rem 0.7rem;
   border-radius: 5px;
   font-size: 0.85rem;
+}
+
+.projectFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.githubLink svg {
+  fill: var(--foreground); /* Default color */
+  transition: fill 0.3s ease-in-out;
+}
+
+.githubLink:hover svg {
+  fill: var(--strong-hover); /* Color change on hover */
 }
 
 @media (max-width: 768px) {
