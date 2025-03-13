@@ -1,0 +1,21 @@
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 20vh;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.aboutContainer h1 {
+  padding-top: 1rem;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.aboutText {
+  color: var(--foreground-dim);
+  margin: 0 auto;
+  width: 50%;
+  font-size: 20px;
+}
