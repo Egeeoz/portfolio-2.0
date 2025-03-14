@@ -26,7 +26,9 @@
 
 .heroContainer h2 {
   color: var(--foreground-dim);
+  border-bottom: 2px solid var(--strong-hover);
   font-size: 22px;
+  padding-bottom: 1rem;
 }
 
 .heroContainer svg {
