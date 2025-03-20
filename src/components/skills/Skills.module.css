@@ -1,6 +1,6 @@
 .skillsContainer {
   padding-top: 3rem;
-  height: 33vh;
+  height: auto;
 }
 
 .skillsTitle {
@@ -14,12 +14,12 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .skillItem {
-  height: 20vh;
-  min-width: 18%;
-  aspect-ratio: 1/1;
+  height: auto;
+  width: 18%;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -32,4 +32,24 @@
 
 .skillItem:hover {
   transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .skillsContainer {
+    margin-bottom: 1rem;
+  }
+
+  .skills {
+    gap: 1rem;
+  }
+
+  .skillItem {
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .skillsTitle {
+    font-size: 24px;
+  }
 }

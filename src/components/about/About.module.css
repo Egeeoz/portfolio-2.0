@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 20vh;
+  height: auto;
   text-align: center;
   gap: 1.5rem;
+  padding: 1rem;
 }
 
 .aboutContainer h1 {
@@ -18,4 +19,19 @@
   margin: 0 auto;
   width: 50%;
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    padding: 1rem;
+  }
+
+  .aboutContainer h1 {
+    font-size: 30px;
+  }
+
+  .aboutText {
+    width: 90%;
+    font-size: 18px;
+  }
 }

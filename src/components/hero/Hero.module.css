@@ -34,3 +34,10 @@
 .heroContainer svg {
   color: var(--foreground-dim);
 }
+
+@media (max-width: 768px) {
+  .heroContainer h2 {
+    margin: 0 auto;
+    width: 80%;
+  }
+}

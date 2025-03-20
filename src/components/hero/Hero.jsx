@@ -1,6 +1,6 @@
-import { useRef, useEffect } from "react";
-import styles from "./Hero.module.css";
-import { FaChevronDown } from "react-icons/fa6";
+import { useRef, useEffect } from 'react';
+import styles from './Hero.module.css';
+import { FaChevronDown } from 'react-icons/fa6';
 
 const Hero = () => {
   const heroContentRef = useRef(null);
@@ -19,14 +19,14 @@ const Hero = () => {
             scrollPosition * -0.2
           }px)`;
         } else {
-          heroContentRef.current.style.opacity = "1";
-          heroContentRef.current.style.transform = "translateY(0)";
+          heroContentRef.current.style.opacity = '1';
+          heroContentRef.current.style.transform = 'translateY(0)';
         }
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (

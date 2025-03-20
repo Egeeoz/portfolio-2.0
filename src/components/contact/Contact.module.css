@@ -34,18 +34,55 @@
 }
 
 .contactLinks a {
-  padding: 1rem 1.1rem;
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: var(--button-background);
-  transition: ease-in-out 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .contactLinks svg {
   color: var(--foreground);
+  width: 25px;
+  height: 25px;
 }
 
 .contactLinks a:hover {
   background-color: var(--strong-hover);
+}
+
+@media (max-width: 768px) {
+  .contactContainer {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .contactInfo {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contactTitle {
+    padding-bottom: 0rem;
+    font-size: 24px;
+  }
+
+  .contactLinks {
+    gap: 1rem;
+  }
+
+  .contactLinks a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contactLinks svg {
+    width: 24px;
+    height: 24px;
+  }
 }

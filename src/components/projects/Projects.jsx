@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import styles from './Projects.module.css';
-import { RiGitRepositoryLine } from 'react-icons/ri';
 import blackjack from '../../images/blackjack.png';
 import unscramblr from '../../images/unscmblr.png';
 import weatherApp from '../../images/weatherapp.png';
@@ -60,16 +59,14 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className={styles.projectsContainer}>
+    <section className={styles.projectsContainer} id="projects">
       {projects.map((project) => {
         const ref = useRef(null);
         const isInView = useInView(ref, { once: true });
         return (
-          <motion.a
+          <motion.div
             ref={ref}
             key={project.id}
-            href={project.link}
-            target="_blank"
             className={styles.projectItem}
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : {}}
@@ -88,16 +85,26 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <a
-                href={project.github}
-                target="_blank"
-                className={styles.githubLink}
-                onClick={(e) => e.stopPropagation()} // Prevents clicking on the project from also opening GitHub
-              >
-                <RiGitRepositoryLine size={24} />
-              </a>
+              <div className={styles.projectLinks}>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.projectLink}
+                >
+                  View Project
+                </a>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.githubLink}
+                >
+                  View Github Repo
+                </a>
+              </div>
             </div>
-          </motion.a>
+          </motion.div>
         );
       })}
     </section>

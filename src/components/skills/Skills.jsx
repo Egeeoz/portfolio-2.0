@@ -6,7 +6,7 @@ import { FaFigma } from 'react-icons/fa';
 
 const Skills = () => {
   return (
-    <section className={styles.skillsContainer}>
+    <section className={styles.skillsContainer} id="skills">
       <h1 className={styles.skillsTitle}>Skills</h1>
       <section className={styles.skills}>
         <div className={styles.skillItem}>
