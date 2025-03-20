@@ -1,0 +1,51 @@
+.contactContainer {
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+}
+
+.contactInfo {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactContainer p {
+  font-size: 20px;
+  color: var(--foreground-dim);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contactTitle {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.contactLinks {
+  display: flex;
+  gap: 3rem;
+}
+
+.contactLinks a {
+  padding: 1rem 1.1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--button-background);
+  transition: ease-in-out 0.3s;
+}
+
+.contactLinks svg {
+  color: var(--foreground);
+}
+
+.contactLinks a:hover {
+  background-color: var(--strong-hover);
+}
