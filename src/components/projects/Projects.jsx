@@ -48,7 +48,7 @@ const projects = [
   {
     id: 4,
     image: portfolio,
-    name: 'Portfolio Website',
+    name: 'Previous Portfolio Website',
     description:
       'A personal portfolio website showcasing projects, skills, and contact information',
     link: 'https://github.com/Egeeoz/portfolio-2.0',

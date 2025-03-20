@@ -35,7 +35,9 @@ const Hero = () => {
         <h1>ege özakdemir</h1>
         <h2>javascript developer</h2>
       </div>
-      <FaChevronDown size={20} />
+      <a href="#projects">
+        <FaChevronDown size={20} />
+      </a>
     </section>
   );
 };
