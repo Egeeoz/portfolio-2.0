@@ -33,7 +33,7 @@ const Hero = () => {
     <section className={styles.heroContainer}>
       <div className={styles.heroContent} ref={heroContentRef}>
         <h1>ege özakdemir</h1>
-        <h2>javascript developer</h2>
+        <h2>fullstack developer</h2>
       </div>
       <a href="#projects">
         <FaChevronDown size={20} />
