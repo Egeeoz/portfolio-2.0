@@ -25,12 +25,12 @@ const Skills = () => {
             <br />
             Development
           </h1>
-          <p>Node.js, Express</p>
+          <p>Node.js, Express, Edge functions, Cloud functions</p>
         </div>
         <div className={styles.skillItem}>
           <GoDatabase size={25} />
           <h1>Databases</h1>
-          <p>DynamoDB, Firestore, MySQL, SQlite</p>
+          <p>DynamoDB, Firestore, MySQL, SQlite, Supabase</p>
         </div>
         <div className={styles.skillItem}>
           <FaFigma size={25} />
