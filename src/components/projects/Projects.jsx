@@ -21,7 +21,7 @@ const projects = [
     id: 2,
     image: unscramblr,
     name: 'Unscramblr',
-    description: `A browser-based word game where players unscramble daily shuffled words to guess the correct answer, with features like a dynamic daily challenge, it's still a work in progress for additional features`,
+    description: `A browser based word game where players unscramble daily shuffled words to guess the correct answer, with features like a daily challenge`,
     link: 'https://www.unscramblr.com/',
     github: 'https://github.com/Egeeoz/Unscramblr',
     technologies: [
@@ -34,16 +34,6 @@ const projects = [
       'Lambda',
       'CD/CI',
     ],
-  },
-  {
-    id: 3,
-    image: weatherApp,
-    name: 'Weather Application',
-    description:
-      'An application that displays the current weather based on user searches, using an API to fetch the data',
-    link: 'https://weatherappege.surge.sh/',
-    github: 'https://github.com/Egeeoz/Weather_App',
-    technologies: ['HTML', 'CSS', 'Javascript'],
   },
   {
     id: 4,
